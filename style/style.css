@@ -18,6 +18,10 @@ body {
     font-family: var(--main-font);
 }
 
+body a:hover { 
+    text-decoration: underline;
+}
+
 header {
     padding: 40px 20px 40px 20px;
     height: 150px;
@@ -75,8 +79,4 @@ footer p {
 footer a {
     color: black;
     text-decoration: none;
-}
-
-a:hover { 
-    text-decoration: underline;
 }

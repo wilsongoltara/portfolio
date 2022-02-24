@@ -56,6 +56,7 @@ section p {
 section img {
     width: 150px;
 }
+
 section ul {
     color: black;
     list-style: none;
@@ -64,10 +65,6 @@ section ul {
 section a {
     color: black;
     text-decoration: none;
-}
-
-section a:hover {
-    text-decoration: underline;
 }
 
 footer p {
@@ -80,6 +77,6 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
+a:hover { 
     text-decoration: underline;
 }

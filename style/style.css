@@ -20,7 +20,37 @@ body {
   font-family: var(--description-font);
 }
 
-body a:hover {
+.header {
+  margin: auto;
+  height: 100px;
+  padding: 50px 30px 20px;
+  background: linear-gradient(to bottom,rgb(205, 205, 205), rgb(228, 228, 228));
+  text-align: center;
+}
+
+.title-header {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0px 10px;
+  padding: 20px;
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: rgb(73, 71, 71);
+  padding:10px;
+  font-weight: bold;
+}
+
+
+
+/* body a:hover {
   text-decoration: underline;
 }
 
@@ -85,4 +115,4 @@ footer p {
 footer a {
   color: black;
   text-decoration: none;
-}
+} */

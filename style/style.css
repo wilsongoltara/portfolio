@@ -61,10 +61,41 @@ body {
 }
 
 #my_picture{
+  display: inline-block;
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.my-description {
+  display: inline-block;
+  margin: 0 200px;
+  padding-bottom: 10px;
+}
+
+.lists {
+  list-style: none;
+  padding: 10px;
+}
+
+.list-skills {
+  font-weight: 500;
+}
+
+.item-list {
+  display: inline-block;
+  padding: 10px;
+}
+
+.item-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.item-list a:hover {
+  text-decoration: none;
+  color: rgb(18, 18, 248);
 }
 
 /* body a:hover {
